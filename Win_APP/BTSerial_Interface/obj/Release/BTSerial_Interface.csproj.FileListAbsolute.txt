@@ -1,0 +1,10 @@
+C:\Users\Ben Chai\Documents\ECE4180\BTSerial_Interface\BTSerial_Interface\bin\Release\BTSerial_Interface.exe.config
+C:\Users\Ben Chai\Documents\ECE4180\BTSerial_Interface\BTSerial_Interface\bin\Release\BTSerial_Interface.exe
+C:\Users\Ben Chai\Documents\ECE4180\BTSerial_Interface\BTSerial_Interface\bin\Release\BTSerial_Interface.pdb
+C:\Users\Ben Chai\Documents\ECE4180\BTSerial_Interface\BTSerial_Interface\obj\Release\BTSerial_Interface.csproj.AssemblyReference.cache
+C:\Users\Ben Chai\Documents\ECE4180\BTSerial_Interface\BTSerial_Interface\obj\Release\BTSerial_Interface.Form1.resources
+C:\Users\Ben Chai\Documents\ECE4180\BTSerial_Interface\BTSerial_Interface\obj\Release\BTSerial_Interface.Properties.Resources.resources
+C:\Users\Ben Chai\Documents\ECE4180\BTSerial_Interface\BTSerial_Interface\obj\Release\BTSerial_Interface.csproj.GenerateResource.cache
+C:\Users\Ben Chai\Documents\ECE4180\BTSerial_Interface\BTSerial_Interface\obj\Release\BTSerial_Interface.csproj.CoreCompileInputs.cache
+C:\Users\Ben Chai\Documents\ECE4180\BTSerial_Interface\BTSerial_Interface\obj\Release\BTSerial_Interface.exe
+C:\Users\Ben Chai\Documents\ECE4180\BTSerial_Interface\BTSerial_Interface\obj\Release\BTSerial_Interface.pdb
