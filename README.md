@@ -1,16 +1,26 @@
 # Wearable-Wireless-Bio-sensor-on-MBed
 Gatech ECE 4180 Final Project
 
+## This repo contains two parts
 
-Windows Application
-We developed the GUI via Winform application based on the Microsoft .NET Framework 4.7.2. The entire GUI based application is coded using C#. 
-
-
-
-We use a multithreading approach to implement our application. Basically we have two threads. One handles the GUI (data monitoring and visualization) and its user interaction activities (user-friendly buttons, dropdown boxes, graphs, etc.) The other thread is the serial port handler which sets up the serial port, polls and manipulates the data in parallel in a while loop.
+* Mbed_Program (Mbed program)  
+* Win_APP/BTSerial_Interface (Winform Application)
 
 
-CustomBluetooth Communication Protocol
-We designed a custom communication protocol over Bluetooth. A header flag and a tailor flag are implemented to differentiate each data packet (a set of measurements). In the case of incomplete packets, we just discard them and move forward. Data type for each measurement is byte.
+## To run the whole demo
 
-At last, we implemented try & catch blocks in multiple sensitive places to ensure the program would not crash when expected exceptions occur. Notice that the serial port thread needs to be killed gracefully to avoid problems, including the port being in use even after the program exits, stopping us from reusing the serial port in the same or different program. 
+### Part I: Set up Mbed Program
+* Go to the Mbed online compiler at https://os.mbed.com/  
+* Create an empty project on platform Mbed *LPC1768*  (this code is only tested on *LPC1768*, other versions of Mbed are not guranteed to work)  
+* Upload all the files in the ``` Mbed_Program ``` and compile the program  
+* Download the **.bin** file and upload it onto the mbed  
+
+### Part II: Set up Winform Application
+* Download the ``` Win_APP/BTSerial_Interface ``` folder
+* Open the **BTSerial_Interface.sln** with Visual Studio IDE (only Microsoft .NET Framework 4.7.2 and newer version will be supported)  
+* Connect Windows to the Bluetooth deivce *HC-05* (default code is **1234**)  
+* Click ``` Start ``` buttom in the Visual Studio IDE  
+* Select ``` Port Number ``` (serial port that the Bluetooth is connected to in this case)  
+* Select ``` Baudrate ``` to be 9600
+* Click ``` Start Receive ``` to begin transmitting the measurement data
+* Click ``` Stop Receive ``` to stop transmitting the measurement data
