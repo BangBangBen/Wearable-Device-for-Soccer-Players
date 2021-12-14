@@ -7,7 +7,7 @@ Gatech ECE 4180 Final Project
 * Win_APP/BTSerial_Interface (Winform Application)
 
 
-## To run the whole demo
+## To Run this Demo
 
 ### Part I: Set up Mbed Program
 * Go to the Mbed online compiler at https://os.mbed.com/  
