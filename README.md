@@ -1,4 +1,4 @@
-# Wearable-Wireless-Bio-sensor-on-MBed
+# Wearable Wireless Bio-sensor based on MBed
 Gatech ECE 4180 Final Project
 
 ## This repo contains two parts
